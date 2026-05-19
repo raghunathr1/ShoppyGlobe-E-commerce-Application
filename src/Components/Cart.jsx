@@ -12,6 +12,9 @@ function Cart() {
       
       <Header />
       <div className="cart-total">
+        
+      {/* Total Price and and Checkout  */}
+
         <h2> Total Price : ₹ {totalPrice} </h2>
         <Link to="/checkout"> <button> Proceed To Checkout </button> </Link>
       </div>
@@ -24,9 +27,9 @@ function Cart() {
                 <CartItem key={item.id} item={item} />
               ))
             }
-
-            
+ 
           </>
+          // If Cart is Empty 
         ) : (
           <div className="empty-cart">
             <h2>Cart is Empty</h2>
