@@ -6,6 +6,8 @@ function useFetchProducts() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
 
+  // Fetch Api 
+  
   useEffect(() => {
     async function fetchProducts() {
       try {

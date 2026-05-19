@@ -1,3 +1,5 @@
+/* Heading Section Desing */
+
 #heading{
     background-color: aquamarine;
     padding: 10px;
@@ -31,6 +33,9 @@ input{
 nav a{
     text-decoration: none;
 }
+
+/* Products List */
+
 .product-list{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -87,6 +92,7 @@ body{
 }
 
 /* Cart Item */
+
 .cart-item {
     display: flex;
     justify-content: center;
@@ -100,6 +106,7 @@ body{
 }
 
 /* CheckOut */
+
 #address{
     border: solid black 2px;
     padding: 12px;
