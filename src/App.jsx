@@ -1,11 +1,11 @@
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import {lazy, Suspense} from "react";
 import './App.css'
-const Home = lazy(() => import("./components/Home"));
-const ProductDetail = lazy(() => import("./components/ProductDetail"));
-const Cart = lazy(() => import("./components/Cart"));
-const Checkout = lazy(() => import("./components/Checkout"));
-const NotFound = lazy(() => import("./components/NotFound"));
+const Home = lazy(() => import("./Components/Home"));
+const ProductDetail = lazy(() => import("./Components/ProductDetail"));
+const Cart = lazy(() => import("./Components/Cart"));
+const Checkout = lazy(() => import("./Components/Checkout"));
+const NotFound = lazy(() => import("./Components/NotFound"));
 const router = createBrowserRouter([
   {
     path: "/",

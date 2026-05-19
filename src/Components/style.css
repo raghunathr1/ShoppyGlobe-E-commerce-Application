@@ -149,42 +149,120 @@ body{
     font-size: larger;
 }
 
-/* Responsive Design  */
-@media (max-width:790px) {
+ /* RESPONSIVE DESIGN */
+
+/* Laptop */
+
+@media (max-width:1024px){
+
+    .product-list{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+
     .h2{
-    display: inline;
-    position: relative;
-    left: 400px;
-    bottom: 27px;
-    margin: 12px;
-    text-decoration: none;
-}      
+        left: 300px;
+    }
 }
-@media (max-width:620px) {
-    .h2{
-    position: relative;
-    left: 300px;
-}      
-}
-@media (max-width:541px) {
+
+
+/* Tablet */
+
+@media (max-width:768px){
+
+    #heading{
+        height: auto;
+        padding: 20px;
+    }
+
     .h2{
         position: relative;
-        left: 100px;
-        top: 35px;
-}   
+        left: 180px;
+        top: 10px;
+        display: inline-block;
+        margin: 10px;
+        font-size: 18px;
+    }
+
     .product-list{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}   
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    button{
+        width: 100%;
+    }
 }
-@media (max-width:415px) {
+
+
+/* Mobile */
+
+@media (max-width:540px){
+
+    #heading{
+        height: auto;
+        text-align: center;
+        padding: 20px;
+    }
+
     .h2{
         position: relative;
-        left: 100px;
-        top: 35px;
-}   
+        left: 0px;
+        top: 20px;
+        display: block;
+        margin: 12px;
+        font-size: 17px;
+    }
+
     .product-list{
-    display: grid;
-    grid-template-columns: 1fr;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    button{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    input{
+        width: 100%;
+    }
+
+    .cart-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 }
+
+
+/* Small Mobile */
+
+@media (max-width:380px){
+
+    .h2{
+        font-size: 15px;
+    }
+
+    #heading h1{
+        font-size: 24px;
+    }
+
+    .product-list{
+        padding: 10px;
+    }
+
+    button{
+        font-size: 14px;
+        padding: 8px;
+    }
 }
