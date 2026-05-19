@@ -111,10 +111,36 @@ body{
 .checkout-container{
     position: relative;
     left: 350px;
+    width: 700px;
 }
 
 /* Not Found */
 
+.not-founds{
+    color: white;
+    padding: 30px;
+
+    display: inline-block;
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    height: 70vh; 
+
+}
 .not-found{
-    border: solid black 2px;
+    background-color: rgb(250, 50, 50);
+    margin: 50px;
+    padding: 60px;
+    border: solid black 5px;
+}
+#nfBtn{
+    background-color: rgb(204, 120, 230);
+    width: 40%;
+    height: 40px;
+}
+#nfBtn:hover{
+    transform:scale(1.1);
+    background-color: rgb(4, 62, 65);
+    color: white;
+    font-size: larger;
 }

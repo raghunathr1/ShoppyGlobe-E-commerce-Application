@@ -23,7 +23,8 @@ function Checkout() {
   }
 
   return (
-    <><h1 className="h4">Checkout</h1>
+    <>
+    <h1 className="h4">Checkout</h1>
     <div className="checkout-container">
       
       <div id="address">
@@ -41,8 +42,8 @@ function Checkout() {
       {
         cartItems.map((item) => (
           <div key={item.id}>
-            <h3>{item.title}</h3>
-            <p>Rs {item.price} × {item.quantity}</p>
+            <h3> Product Name: {item.title}</h3>
+            <p> Price : Rs {item.price} × {item.quantity}</p>
           </div>
         ))
       }
