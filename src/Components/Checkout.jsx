@@ -12,6 +12,8 @@ function Checkout() {
   const [phone, setPhone] = useState("");
   const totalPrice = cartItems.reduce((total, item) => total + item.price * item.quantity, 0);
 
+  // Alert Meassage for if inputs are not Field
+
   function handleOrder() {
     if (!name || !address || !phone) {
       alert("Please Fill All Details");
@@ -24,6 +26,8 @@ function Checkout() {
 
   return (
     <>
+    {/* Inputs for Checkout order */}
+
     <h1 className="h4">Checkout</h1>
     <div className="checkout-container">
       
@@ -37,6 +41,9 @@ function Checkout() {
 
       </div>
       <br />
+
+      {/* Summary of Placed Order */}
+      
       <div id="summary">
       <h2>Order Summary</h2>
       {
