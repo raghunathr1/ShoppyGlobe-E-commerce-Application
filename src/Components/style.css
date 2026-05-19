@@ -151,31 +151,26 @@ body{
 
  /* RESPONSIVE DESIGN */
 
-/* Laptop */
+/* Screen Size 1024 */
 
 @media (max-width:1024px){
-
     .product-list{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 20px;
     }
-
     .h2{
         left: 300px;
     }
 }
 
-
-/* Tablet */
+/* Screen Size 768 */
 
 @media (max-width:768px){
-
     #heading{
         height: auto;
         padding: 20px;
     }
-
     .h2{
         position: relative;
         left: 180px;
@@ -184,25 +179,21 @@ body{
         margin: 10px;
         font-size: 18px;
     }
-
     .product-list{
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 20px;
     }
-
     img{
         max-width: 100%;
         height: auto;
     }
-
     button{
         width: 100%;
     }
 }
 
-
-/* Mobile */
+/* Screen Size 540px */
 
 @media (max-width:540px){
 
@@ -211,7 +202,6 @@ body{
         text-align: center;
         padding: 20px;
     }
-
     .h2{
         position: relative;
         left: 0px;
@@ -220,22 +210,18 @@ body{
         margin: 12px;
         font-size: 17px;
     }
-
     .product-list{
         display: grid;
         grid-template-columns: 1fr;
         gap: 20px;
     }
-
     button{
         width: 100%;
         margin-top: 10px;
     }
-
     input{
         width: 100%;
     }
-
     .cart-item{
         display: flex;
         flex-direction: column;
@@ -244,23 +230,18 @@ body{
     }
 }
 
-
-/* Small Mobile */
+/* Screen Size 380 */
 
 @media (max-width:380px){
-
     .h2{
         font-size: 15px;
     }
-
     #heading h1{
         font-size: 24px;
     }
-
     .product-list{
         padding: 10px;
     }
-
     button{
         font-size: 14px;
         padding: 8px;
