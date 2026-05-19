@@ -8,13 +8,21 @@ function Header() {
   const cartItems = useSelector((state) => state.cart.cartItems);
 
   return (
+    // Heading Section 
+
     <header className="header">
       <div id="heading">
         <h1 className="h1">Shoppy-Globe</h1>
+
+        {/* Link Section */}
+
         <nav>
         <Link to="/"> <h3 className="h2"> 🏠 Home</h3> </Link>
         <Link to="/cart"> <h3 className="h2">🛒 Cart ({cartItems.length}) </h3>   </Link>
       </nav>
+      
+      {/* Marquee Added */}
+
         <marquee>E-Commerce Application</marquee>
       </div>
       <h1 className="h4">All Products</h1>
