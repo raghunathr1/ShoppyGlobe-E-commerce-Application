@@ -49,6 +49,8 @@ function ProductDetail() {
     <div className="product-details">
     <div className="product-detail">
 
+    {/* Products Details  */}
+    
      <h1 id="vdtit"> The Product : {product.title}</h1>
       <img src={product.thumbnail} alt={product.title} loading="lazy" width="250"  id="vdImg"/>
       <h2 id="vdPri"> Price: Rs {product.price}</h2>

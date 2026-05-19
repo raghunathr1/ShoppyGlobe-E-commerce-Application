@@ -6,6 +6,7 @@ function ProductItem({ product }) {
   const dispatch = useDispatch();
   return (
     <div className="product-card">
+      {/*  Products Displaying card separate */}
       <img src={product.thumbnail} alt={product.title} loading="lazy" width="200" />
       <h2>{product.title}</h2>
       <h3> Price: Rs. {product.price}</h3>

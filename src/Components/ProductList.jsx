@@ -24,9 +24,11 @@ function ProductList() {
   return (
 
     <div className="product-list">
+
+      {/* If Product not Found by Search */}
+
       {
-        filteredProducts.length > 0 ? (
-          filteredProducts.map((item) => (
+        filteredProducts.length > 0 ? (filteredProducts.map((item) => (
             <ProductItem key={item.id} product={item} />
           ))
         ) : (
