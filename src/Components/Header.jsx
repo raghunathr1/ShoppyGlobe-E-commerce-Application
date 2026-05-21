@@ -17,14 +17,14 @@ function Header() {
 
         {/* Link Section */}
 
-        <nav>
+      <nav>
         <Link to="/"> <h3 className="h2"> 🏠 Home</h3> </Link>
         <Link to="/cart"> <h3 className="h2">🛒 Cart ({cartItems.length}) </h3> </Link>
       </nav>
-      
+       
       {/* Marquee Added */}
 
-        <marquee>E-Commerce Application</marquee>
+      <marquee>E-Commerce Application</marquee>
       </div>
       <h1 className="h4">All Products</h1>
       <div id='input'>

@@ -21,8 +21,11 @@ function CartItem({ item }) {
           <button> {item.quantity} </button>
           <button onClick={() => dispatch( increaseQuantity(item.id))}> + </button>
         </div>
+
         <br />
+        
         <button onClick={() => dispatch( removeFromCart(item.id))}> Remove Item </button>
+        
       </div>
       </div>
     </div>
