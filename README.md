@@ -23,6 +23,9 @@
 ## API used
 - https://dummyjson.com/products
 
+## Emoji used 
+- https://emojipedia.org/
+
 ## Run Project 
 - Extract the ZIP File
     unzip file 
