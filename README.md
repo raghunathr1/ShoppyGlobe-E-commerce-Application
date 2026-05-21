@@ -2,6 +2,7 @@
 - This project was created as part of a React.js project assignment using Vite, Redux Toolkit, React Router, and API integration.ShoppyGlobe is a fully responsive E-commerce web application built using React, Redux Toolkit, React Router, and Vite. The application allows users to browse products, view product details, search products, add items to the cart, manage quantities, and place orders through a checkout system. It also includes dynamic routing, lazy loading, Redux state management, and API integration using DummyJSON.
 
 ## Github Repository
+- Account Link = https://github.com/raghunathr1
 - https://github.com/raghunathr1/ShoppyGlobe-E-commerce-Application
 
 ## Live Features
