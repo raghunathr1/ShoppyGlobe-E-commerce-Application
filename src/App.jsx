@@ -6,6 +6,9 @@ const ProductDetail = lazy(() => import("./Components/ProductDetail"));
 const Cart = lazy(() => import("./Components/Cart"));
 const Checkout = lazy(() => import("./Components/Checkout"));
 const NotFound = lazy(() => import("./Components/NotFound"));
+
+// Path Setting 
+
 const router = createBrowserRouter([
   {
     path: "/",
