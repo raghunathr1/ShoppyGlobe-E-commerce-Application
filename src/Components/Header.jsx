@@ -8,6 +8,7 @@ function Header() {
   const cartItems = useSelector((state) => state.cart.cartItems);
 
   return (
+    
     // Heading Section 
 
     <header className="header">
@@ -18,7 +19,7 @@ function Header() {
 
         <nav>
         <Link to="/"> <h3 className="h2"> 🏠 Home</h3> </Link>
-        <Link to="/cart"> <h3 className="h2">🛒 Cart ({cartItems.length}) </h3>   </Link>
+        <Link to="/cart"> <h3 className="h2">🛒 Cart ({cartItems.length}) </h3> </Link>
       </nav>
       
       {/* Marquee Added */}
