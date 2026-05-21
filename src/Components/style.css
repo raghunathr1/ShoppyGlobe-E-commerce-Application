@@ -130,7 +130,6 @@ body{
 .not-founds{
     color: white;
     padding: 30px;
-
     display: inline-block;
     display: flex;
     justify-content: center;   
@@ -160,11 +159,11 @@ body{
 .empty-cart{
     position: relative;
     left: 500px;
-    margin: 20px;
-    padding: 20px;
+    margin: 10px;
+    padding: 10px;
     border: solid black 3px;
     display: inline-block;
-    width: 250px;
+    width: 270px;
     background-color: rgb(147, 169, 240);
 }
 #ceBack{
@@ -174,8 +173,30 @@ body{
 #ceBack:hover{
     background-color: blueviolet;
     transform: scale(1.1);
+    color: antiquewhite;
 }
 
+/* Total Value */
+
+.cart-total{
+    position: relative;
+    left: 500px;
+    margin: 10px;
+    padding: 10px;
+    border: solid black 3px;
+    display: inline-block;
+    width: 270px;
+    background-color: rgb(138, 253, 84);
+}
+#ceBack{
+    background-color: rgb(248, 192, 204);
+    font-size: larger;
+}
+#ceBack:hover{
+    background-color: blueviolet;
+    transform: scale(1.1);
+    color: antiquewhite;
+}
  /* RESPONSIVE DESIGN */
 
 /* Screen Size 1024 */

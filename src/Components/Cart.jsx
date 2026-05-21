@@ -14,9 +14,9 @@ function Cart() {
       <div className="cart-total">
         
       {/* Total Price and and Checkout  */}
-
+      
         <h2> Total Price : ₹ {totalPrice} </h2>
-        <Link to="/checkout"> <button> Proceed To Checkout </button> </Link>
+        <Link to="/checkout"> <button id="ceBack"> Proceed To Checkout </button> </Link>
       </div>
       <h1 className="h4">Shopping Cart</h1>
       {
