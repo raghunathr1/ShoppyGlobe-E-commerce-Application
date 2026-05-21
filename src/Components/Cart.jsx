@@ -32,8 +32,8 @@ function Cart() {
           // If Cart is Empty 
         ) : (
           <div className="empty-cart">
-            <h2>Cart is Empty</h2>
-            <Link to="/"> <button> Continue Shopping </button> </Link>
+            <h2> 🛒 Cart is Empty 🛒</h2>
+            <Link to="/"> <button id="ceBack"> Continue Shopping </button> </Link>
           </div>
 
         )
