@@ -10,9 +10,9 @@ function ProductItem({ product }) {
       <img src={product.thumbnail} alt={product.title} loading="lazy" width="200" />
       <h2>{product.title}</h2>
       <h3> Price: Rs. {product.price}</h3>
-      <Link to={`/product/${product.id}`}> <button> View Details </button> </Link>
+      <Link to={`/product/${product.id}`}> <button className="CheckBtn"> View Details </button> </Link>
 
-      <button onClick={() => dispatch(addToCart(product))}> Add To Cart </button>
+      <button onClick={() => dispatch(addToCart(product))} className="CheckBtn"> Add To Cart </button>
     </div>
   );
 }

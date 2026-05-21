@@ -90,7 +90,16 @@ body{
     display: flex;
     justify-content: center;
 }
+.CheckBtn{
+    margin-left: 30px;
+    background-color: rgb(138, 172, 245);
+    font-size: large;
+}
+.CheckBtn:hover{
 
+    background-color: rgb(3, 250, 147);
+    transform: scale(1.1);
+}
 /* Cart Item */
 
 .cart-item {
