@@ -1,6 +1,5 @@
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import {lazy, Suspense} from "react";
-import './App.css'
 const Home = lazy(() => import("./Components/Home"));
 const ProductDetail = lazy(() => import("./Components/ProductDetail"));
 const Cart = lazy(() => import("./Components/Cart"));
